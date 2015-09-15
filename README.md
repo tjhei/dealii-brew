@@ -20,6 +20,12 @@ git clone --recursive https://github.com/tjhei/dealii-brew.git
 cd dealii-brew
 source env.sh	
 brew tap tjhei/dealiisuite
+
+# use system cmake?
+brew install system-cmake
+
+
+
 brew install mpich2  # if you don't have mpi
 brew install openblas  # if you don't have blas
 # automatic: brew install petsc
